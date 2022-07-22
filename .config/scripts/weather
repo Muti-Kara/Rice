@@ -1,0 +1,7 @@
+#!/bin/bash
+
+url="wttr.in/$1"
+url="${url/ /"%20"}"
+curl $url > $HOME/.config/scripts/temp.txt -s
+sed -i '$ d' $HOME/.config/scripts/temp.txt
+cat $HOME/.config/scripts/temp.txt

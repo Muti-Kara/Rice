@@ -1,0 +1,19 @@
+#! /bin/sh
+sxhkd &
+feh --bg-scale ~/.config/wallpapers/wallpaper_tanjiro.jpg &
+xsetroot -cursor_name left_ptr &
+picom &
+~/.config/polybar/hack/launch.sh &
+
+bspc config border_width        0
+bspc config window_gap          15
+
+bspc config split_ratio          0.5
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+bspc config focus_follows_pointer true
+bpsc config click_to_focus true
+
+bspc monitor -d 1 2 3 4
+
+bspc rule -a Zathura state=tiled

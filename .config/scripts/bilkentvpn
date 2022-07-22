@@ -1,0 +1,1 @@
+sudo openvpn --config $HOME/.config/openvpn/bilkent-2020.ovpn

@@ -1,0 +1,22 @@
+* {
+	/* Dracula theme colour palette */
+	drac-bgd: #282a36;
+	drac-cur: #44475a;
+	drac-fgd: #f8f8f2;
+	drac-cmt: #6272a4;
+	drac-cya: #8be9fd;
+	drac-grn: #50fa7b;
+	drac-ora: #ffb86c;
+	drac-pnk: #ff79c6;
+	drac-pur: #bd93f9;
+	drac-red: #ff5555;
+	drac-yel: #f1fa8c;
+	
+	accent:           	@drac-grn;
+	background:       	@drac-bgd;
+	background-light: 	@drac-cur;
+	border-color:		@drac-pur;
+	foreground:       	@drac-fgd;
+	on:               	@drac-yel;
+	off:              	@drac-red;
+}

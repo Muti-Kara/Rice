@@ -1,0 +1,11 @@
+require "user.options"
+require "user.keymaps"
+require "user.plugins"
+require "user.colorscheme"
+require "user.telescope"
+require "user.treesitter"
+require "user.statusline"
+require "user.cmp"
+require "user.lsp"
+vim.cmd('source ~/.config/nvim/lua/user/db.vim')
+vim.cmd('source ~/.config/nvim/lua/user/tex.vim')

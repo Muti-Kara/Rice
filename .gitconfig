@@ -1,0 +1,15 @@
+[mergetool "nvim"]
+  cmd = nvim -f -c \"Gdiffsplit!\" \"$MERGED\"
+[merge]
+  tool = nvim
+[mergetool]
+  prompt = false
+	keepBackup = false
+[safe]
+	directory = /opt/flutter
+	directory = /opt/flutter
+[user]
+	email = muti.kara@ug.bilkent.edu.tr
+	name = Muti-Kara
+[pull]
+	rebase = false

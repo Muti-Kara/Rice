@@ -1,0 +1,3 @@
+#!/bin/bash
+
+source "/home/yuio/.venv/$1/bin/activate"

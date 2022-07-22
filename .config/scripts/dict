@@ -1,0 +1,5 @@
+#!/bin/bash
+
+url="dict://dict.org/d:$1"
+url="${url/ /"%20"}"
+curl $url
