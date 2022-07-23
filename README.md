@@ -9,4 +9,6 @@ Applications:<br />
 5. rofi<br />
 6. neovim<br />
 7. polybar<br />
-8. sxhkd
+8. sxhkd<br />
+9. feh<br />
+10. networkmanager_dmenu
